@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Questionnaire</string>
+    <string name="welcome">Welcome to my questionnaire\nRomeo Chen\n20141764</string>
+    <string name="next">NEXT</string>
+    <string name="end">Thank you so much for your cooperation!\n you can either close the APP or restart the questionaire.</string>
+    <string name="unknow">\?\?\?\?\?\?</string>
+</resources>

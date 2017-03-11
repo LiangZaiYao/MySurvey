@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.cqu.questionnaire">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity1"
+            android:label="Questionnaire">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity2"
+            android:label="Questionnaire:Step1" />
+        <activity
+            android:name=".Activity3"
+            android:label="Questionnaire:Step2" />
+        <activity
+            android:name=".Activity4"
+            android:label="Questionnaire:Step3" />
+        <activity
+            android:name=".Activity5"
+            android:label="Questionnaire:Step4" />
+        <activity
+            android:name=".Activity6"
+            android:label="Questionnaire:Step5" />
+        <activity
+            android:name=".Activity7"
+            android:label="Questionnaire:Step6" />
+        <activity
+            android:name=".Activity8"
+            android:label="Questionnaire:Step7" />
+        <activity
+            android:name=".Activity9"
+            android:label="Questionnaire:Step8" />
+        <activity
+            android:name=".Activity10"
+            android:label="Questionnaire:Step9" />
+        <activity
+            android:name=".Activity11"
+            android:label="Questionnaire:Step10" />
+        <activity
+            android:name=".Activity12"
+            android:label="Questionnaire:Step11" />
+        <activity android:name=".ActivityEnd"></activity>
+    </application>
+
+</manifest>
